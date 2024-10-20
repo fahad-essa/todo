@@ -1,0 +1,56 @@
+body, html {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+     background: url("mm3.jpg") no-repeat center;
+     background-attachment: fixed;
+     background-size: cover; 
+}
+
+.container {
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.todo-input {
+    display: flex;
+    justify-content: space-between;
+}
+
+#new-todo {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#add-todo {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#todo-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+button {
+    cursor: pointer;
+}
+.completed {
+    text-decoration: line-through;
+}
